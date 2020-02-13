@@ -6,17 +6,18 @@ function calc(){
 
     alert("calculating ...")
     var Year =parseInt(document.getElementById("year").value);
-    var Month = parseInt(document.getElementById("month").value);
-    var day =parseInt(document.getElementById(day).value);
+    var Month =parseInt(document.getElementById("month").value);
+    var Day =parseInt(document.getElementById("day").value);
     var gender =document.getElementById("gender").value;
 
-    if (Month<=0||Month >12){
+    if(Month<=0||Month >12){
         alert("Add a correct month!!!");
 
     }
     else if(Day <=1 ||Day>31){
         alert("Add the correct day !!!")
     }
+    
     var day= new Date(Year+"/"+ Month+"/"+day);
     var BirthDay=day.getDay();
 

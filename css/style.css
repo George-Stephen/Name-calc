@@ -13,13 +13,9 @@ button{
     border-radius: 20px;
 }
 }
-input[type=number]{
-    height: 50px;
-    font-size: 20px;
-    width: 100px;
 }
 input[type=text]{
-    height: 50px;
+    height: 80px;
     font-size: 20px;
-    width: 100px;
+    width: 50px;
 }
