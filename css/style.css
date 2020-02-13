@@ -5,14 +5,19 @@ body{
     font-size: 30px;
 }
 input[type=submit]{
-    background-color: olivedrab;
+    background-color: rgb(87, 100, 60);
     color: palegoldenrod;
     height: 50px;
-    width: 100px;
+    width: 150px;
+    font-size: 30px;
+    border-radius: 20px;
 }
 input[type=text]{
     height: 50px;
     font-size: 25px;
     width: 120px;
+}
+input[type=checkbox]{
+    height: 20px;
 }
 
