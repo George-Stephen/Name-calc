@@ -4,8 +4,11 @@ body{
     color: rgb(129, 129, 68);
     font-size: 30px;
 }
-input [type=submit]{
-    background-color: blueviolet;
+input[type=submit]{
+    background-color: olivedrab;
+    color: palegoldenrod;
+    height: 50px;
+    width: 100px;
 }
 input[type=text]{
     height: 50px;
