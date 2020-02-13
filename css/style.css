@@ -12,15 +12,14 @@ button{
     color: cadetblue;
     border-radius: 20px;
 }
-.container{
-    width: 50px;
-    background-color: coral;
 }
 input[type=number]{
     height: 50px;
     font-size: 20px;
+    width: 100px;
 }
 input[type=text]{
     height: 50px;
     font-size: 20px;
+    width: 100px;
 }
