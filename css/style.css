@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(82, 104, 97);
+    text-align: center;
+    color: beige;
+}
+button{
+    height: 50px;
+    width: 100px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: brown;
+    color: cadetblue;
+    border-radius: 20px;
+}
+.container{
+    width: 50px;
+    background-color: coral;
+}
+input[type=number]{
+    height: 50px;
+    font-size: 20px;
+}
+input[type=text]{
+    height: 50px;
+    font-size: 20px;
+}
