@@ -18,7 +18,7 @@ function calc(){
     var BirthDay= day.getDay();
 
     if(Male.checked==true){
-        alert("your name is" +maleName[BirthDay])
+        alert("your name is"  +maleName[BirthDay])
     }
-        alert("Your name is" +femaleName[BirthDay])   
+        alert("Your name is"  +femaleName[BirthDay])   
 }
