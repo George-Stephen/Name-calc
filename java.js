@@ -6,8 +6,9 @@ function calc(){
     Month=document.getElementsByClassName('month').value;
     Day=document.getElementsByClassName('day').value;
     gender=document.getElementsByClassName('gender').value;
+    document.getElementById('demo').innerHTML= (gender)
     
     var Date=(((Century/4)-22*Century-1)+(5*(Year/4))+((26*(Month+1)/10))+Day) mod 7;
-    document.getElementById('demo').innerHTML= Date
+    
 
 };
