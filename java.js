@@ -14,11 +14,15 @@ function calc(){
     else if(Day <=0||Day>31){
         alert("Add the correct day !!!")
     }
+    else if(Month==2 && Day==29){
+        alert("Wrong date input!!!!")
+    }
     var day= new Date(Year +"/"+ Month+"/"+ Day);
     var BirthDay= day.getDay();
 
     if(Male.checked==true){
-        alert("your name is"  +maleName[BirthDay])
+        alert("your Akan name is "+maleName[BirthDay])
     }
-        alert("Your name is"  +femaleName[BirthDay])  
+    else
+        alert("Your Akan name is "+femaleName[BirthDay])  
 }
