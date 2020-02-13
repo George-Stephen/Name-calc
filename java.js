@@ -1,26 +1,30 @@
 function calc(){
+
+
     //-Names--/
     var Days =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday",];
-    var maleNames =["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame",];
+    var maleName =["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame",];
     var femaleName =["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama",];
-    //-Variable--//
-    var Year =ParseInt(document.getElementsByClassName('year').value);
-    var Month =ParseInt(document.getElementsByClassName('month').value);
-    var Day =ParseInt(document.getElementsByClassName('day').value);
-    var gender =document.getElementsByClassName('gender').value;
-    //--IF functions--//
+
+    alert("calculating ...")
+    var Year =ParseInt(document.getElementsByid("year").value);
+    var Month =ParseInt(document.getElementsByid("month").value);
+    var Day =ParseInt(document.getElementsByid("day").value);
+    var gender =document.getElementsByid("gender").value;
+
     if(Month<=0||Month>12){
         alert("Add a correct month!!!");
+
     }
     else if(Day <=1 ||Day>31){
         alert("Add the correct day !!!")
     }
-
-    var day=new Date(Year+"/"+ Month+"/"+day);
-    var Birthday=day.getDay();
+    
+    var day= new Date(Year+"/"+ Month+"/"+day);
+    var Birthday= day.getday() 
     if(gender=="male"){
-        alert("your name is"+maleNames[maleNames])
+        alert("your name is"+ maleName[Birthday] )
     } else if(gender=="female"){
-        alert("Your name is"+femaleNames[femaleNames])
+        alert("Your name is"+ femaleName[Birthday] )
     }
 }
