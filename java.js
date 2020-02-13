@@ -7,16 +7,15 @@ function calc(){
     var Year =parseInt(document.getElementById("year").value);
     var Month =parseInt(document.getElementById('month').value);
     var Day =parseInt(document.getElementById("day").value);
-    var gender =document.getElementById("gender").value;
 
     if(Month<=0||Month >12){
         alert("Add a correct month!!!");
     }
-    else if(Day <=1 ||Day>31){
+    else if(Day <=0||Day>31){
         alert("Add the correct day !!!")
     }
     var day= new Date(Year +"/"+ Month+"/"+ day);
-    var BirthDay=day.getDay();
+    var BirthDay= day.getDay();
 
     if(Male.checked==true){
         alert("your name is"+maleName[BirthDay])
