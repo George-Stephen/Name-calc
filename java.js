@@ -3,14 +3,11 @@ function calc(){
     var Days =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday",];
     var maleNames =["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame",];
     var femaleName =["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama",];
-    
-    alert("calculating....")
     //-Variable--//
-    var Year,Month,Day,gender,;
-    Year =ParseInt(document.getElementsByClassName('year').value);
-    Month =ParseInt(document.getElementsByClassName('month').value);
-    Day =ParseInt(document.getElementsByClassName('day').value);
-    gender =document.getElementsByClassName('gender').value;
+    var Year =ParseInt(document.getElementsByClassName('year').value);
+    var Month =ParseInt(document.getElementsByClassName('month').value);
+    var Day =ParseInt(document.getElementsByClassName('day').value);
+    var gender =document.getElementsByClassName('gender').value;
     //--IF functions--//
     if(Month<=0||Month>12){
         alert("Add a correct month!!!");
@@ -21,7 +18,6 @@ function calc(){
 
     var day=new Date(Year+"/"+ Month+"/"+day);
     var Birthday=day.getDay();
-
     if(gender=="male"){
         alert("your name is"+maleNames[maleNames])
     } else if(gender=="female"){
