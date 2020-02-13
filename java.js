@@ -14,7 +14,7 @@ function calc(){
     else if(Day <=0||Day>31){
         alert("Add the correct day !!!")
     }
-    else if(Month==2 && Day==29){
+    else if(Month==2 && Day>29){
         alert("Wrong date input!!!!")
     }
     var day= new Date(Year +"/"+ Month+"/"+ Day);

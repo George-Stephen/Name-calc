@@ -1,8 +1,11 @@
 body{
     background-color: rgb(27, 65, 53);
     text-align: center;
-    color: rgb(129, 129, 68);
+    color: rgb(37, 37, 16);
     font-size: 30px;
+    background-image: url("../images/cape.jpeg");
+    background-position: center;
+    background-repeat: inherit;
 }
 input[type=submit]{
     background-color: rgb(87, 100, 60);
@@ -20,5 +23,8 @@ input[type=text]{
 input[type=checkbox]{
     height: 20px;
 }
-
+#images{
+    float: left;
+    padding-left: 50px;
+}
 
