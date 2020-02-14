@@ -24,8 +24,10 @@ function calc(){
         alert("your Akan name is "+maleName[BirthDay])
         alert("you were born on "+Days[BirthDay])
     }
-    else
+    else if(Female.checked==true){
         alert("Your Akan name is "+femaleName[BirthDay])
         alert("you were born on "+Days[BirthDay])
-
+    }
+    else
+    alert("Please check your gender")
 }

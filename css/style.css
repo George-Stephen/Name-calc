@@ -27,4 +27,8 @@ input[type=checkbox]{
     float: left;
     padding-left: 50px;
 }
+hr{
+    background-color: rgb(192, 107, 107);
+    
+}
 
