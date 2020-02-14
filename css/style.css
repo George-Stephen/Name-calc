@@ -8,8 +8,8 @@ body{
     background-repeat: inherit;
 }
 input[type=submit]{
-    background-color: rgb(87, 100, 60);
-    color: palegoldenrod;
+    background-color: rgb(25, 32, 10);
+    color: rgb(138, 132, 64);
     height: 50px;
     width: 150px;
     font-size: 30px;
